@@ -20,6 +20,10 @@ header ul{
 }
 header .menu-link{
     display: flex;
+    gap: 8px;
+}
+header .menu-link:hover{
+    border-bottom: 2px solid #403F3D;
 }
 header{
     font-size: 16px;
@@ -391,13 +395,9 @@ footer .right-part .info .first{
 footer .right-part .info .second{
     width: 162px;
 }
-footer .right-part .info .first:hover{
-    border-bottom:2px solid #E1D4C9 ;
-}
-footer .right-part .info .second:hover{
-    border-bottom:2px solid #E1D4C9 ;
-}
-footer .right-part .info .last:hover{
-    border-bottom:2px solid #E1D4C9 ;
+footer .right-part .info{
+    & .first:hover, .second:hover, .last:hover{
+        border-bottom:2px solid #E1D4C9 ;
+    }
 }
 
