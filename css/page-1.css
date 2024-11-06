@@ -125,6 +125,11 @@ main .coffee .coffee-flexbox{
     align-items: center;
     margin-bottom: 40px;
 }
+main .coffee .coffee-flexbox button{
+    border-radius: 50%;
+    background: none;
+    border: 0px;
+}
 main .coffee .coffee-flexbox .right-arrow{
     background: url(../images/right-arrow-dark.svg) no-repeat;
     width: 60px;
